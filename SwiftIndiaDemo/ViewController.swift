@@ -21,10 +21,8 @@ class ViewController: UIViewController {
         rightButton.translatesAutoresizingMaskIntoConstraints = false
 
         self.view.addSubview(rightButton)
-        rightButton.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
-        rightButton.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
-        rightButton.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
-        rightButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        rightButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        rightButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
 
         self.view.backgroundColor = UIColor(red: 0.11, green: 0.11, blue: 0.11, alpha: 1)
     }
