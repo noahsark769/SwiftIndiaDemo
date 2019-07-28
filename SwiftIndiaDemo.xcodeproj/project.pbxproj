@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14D817922EDB28700EF2E9C /* AppKitPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D817822EDB28700EF2E9C /* AppKitPrincipal.swift */; };
+		A14D817D22EDB2BC00EF2E9C /* AppKitLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A14D817C22EDB2BC00EF2E9C /* AppKitLoader.m */; };
+		A14D818122EDB31600EF2E9C /* AppKitBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = A14D817122EDB26800EF2E9C /* AppKitBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A18EA33F22E886AA00785DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EA33E22E886AA00785DF0 /* AppDelegate.swift */; };
 		A18EA34122E886AA00785DF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EA34022E886AA00785DF0 /* SceneDelegate.swift */; };
 		A18EA34322E886AA00785DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EA34222E886AA00785DF0 /* ViewController.swift */; };
@@ -14,7 +17,37 @@
 		A18EA34B22E886AD00785DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18EA34922E886AD00785DF0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A14D817E22EDB30D00EF2E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18EA33322E886AA00785DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14D817022EDB26800EF2E9C;
+			remoteInfo = AppKitBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A14D818022EDB30F00EF2E9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A14D818122EDB31600EF2E9C /* AppKitBundle.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A14D817122EDB26800EF2E9C /* AppKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14D817322EDB26800EF2E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14D817722EDB28700EF2E9C /* AppKitBundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppKitBundle-Bridging-Header.h"; sourceTree = "<group>"; };
+		A14D817822EDB28700EF2E9C /* AppKitPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppKitPrincipal.swift; path = ../../../../../System/Volumes/Data/Users/noahgilmore/code/SwiftIndiaDemo/AppKitBundle/AppKitPrincipal.swift; sourceTree = "<group>"; };
+		A14D817A22EDB2BB00EF2E9C /* SwiftIndiaDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftIndiaDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A14D817B22EDB2BC00EF2E9C /* AppKitLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppKitLoader.h; path = ../../../../../System/Volumes/Data/Users/noahgilmore/code/SwiftIndiaDemo/SwiftIndiaDemo/AppKitLoader.h; sourceTree = "<group>"; };
+		A14D817C22EDB2BC00EF2E9C /* AppKitLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppKitLoader.m; path = ../../../../../System/Volumes/Data/Users/noahgilmore/code/SwiftIndiaDemo/SwiftIndiaDemo/AppKitLoader.m; sourceTree = "<group>"; };
 		A18EA33B22E886AA00785DF0 /* SwiftIndiaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftIndiaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18EA33E22E886AA00785DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18EA34022E886AA00785DF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A14D816E22EDB26800EF2E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A18EA33822E886AA00785DF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14D817222EDB26800EF2E9C /* AppKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				A14D817322EDB26800EF2E9C /* Info.plist */,
+				A14D817822EDB28700EF2E9C /* AppKitPrincipal.swift */,
+				A14D817722EDB28700EF2E9C /* AppKitBundle-Bridging-Header.h */,
+			);
+			path = AppKitBundle;
+			sourceTree = "<group>";
+		};
 		A18EA33222E886AA00785DF0 = {
 			isa = PBXGroup;
 			children = (
 				A18EA33D22E886AA00785DF0 /* SwiftIndiaDemo */,
+				A14D817222EDB26800EF2E9C /* AppKitBundle */,
 				A18EA33C22E886AA00785DF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A18EA33B22E886AA00785DF0 /* SwiftIndiaDemo.app */,
+				A14D817122EDB26800EF2E9C /* AppKitBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +114,9 @@
 				A18EA34722E886AD00785DF0 /* Assets.xcassets */,
 				A18EA34922E886AD00785DF0 /* LaunchScreen.storyboard */,
 				A18EA34C22E886AD00785DF0 /* Info.plist */,
+				A14D817B22EDB2BC00EF2E9C /* AppKitLoader.h */,
+				A14D817C22EDB2BC00EF2E9C /* AppKitLoader.m */,
+				A14D817A22EDB2BB00EF2E9C /* SwiftIndiaDemo-Bridging-Header.h */,
 			);
 			path = SwiftIndiaDemo;
 			sourceTree = "<group>";
@@ -69,6 +124,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A14D817022EDB26800EF2E9C /* AppKitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14D817622EDB26800EF2E9C /* Build configuration list for PBXNativeTarget "AppKitBundle" */;
+			buildPhases = (
+				A14D816D22EDB26800EF2E9C /* Sources */,
+				A14D816E22EDB26800EF2E9C /* Frameworks */,
+				A14D816F22EDB26800EF2E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppKitBundle;
+			productName = AppKitBundle;
+			productReference = A14D817122EDB26800EF2E9C /* AppKitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		A18EA33A22E886AA00785DF0 /* SwiftIndiaDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18EA34F22E886AD00785DF0 /* Build configuration list for PBXNativeTarget "SwiftIndiaDemo" */;
@@ -76,10 +148,12 @@
 				A18EA33722E886AA00785DF0 /* Sources */,
 				A18EA33822E886AA00785DF0 /* Frameworks */,
 				A18EA33922E886AA00785DF0 /* Resources */,
+				A14D818022EDB30F00EF2E9C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A14D817F22EDB30D00EF2E9C /* PBXTargetDependency */,
 			);
 			name = SwiftIndiaDemo;
 			productName = SwiftIndiaDemo;
@@ -96,8 +170,13 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Noah Gilmore";
 				TargetAttributes = {
+					A14D817022EDB26800EF2E9C = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
 					A18EA33A22E886AA00785DF0 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -115,11 +194,19 @@
 			projectRoot = "";
 			targets = (
 				A18EA33A22E886AA00785DF0 /* SwiftIndiaDemo */,
+				A14D817022EDB26800EF2E9C /* AppKitBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A14D816F22EDB26800EF2E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A18EA33922E886AA00785DF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,17 +219,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A14D816D22EDB26800EF2E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14D817922EDB28700EF2E9C /* AppKitPrincipal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A18EA33722E886AA00785DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A18EA34322E886AA00785DF0 /* ViewController.swift in Sources */,
+				A14D817D22EDB2BC00EF2E9C /* AppKitLoader.m in Sources */,
 				A18EA33F22E886AA00785DF0 /* AppDelegate.swift in Sources */,
 				A18EA34122E886AA00785DF0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14D817F22EDB30D00EF2E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14D817022EDB26800EF2E9C /* AppKitBundle */;
+			targetProxy = A14D817E22EDB30D00EF2E9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A18EA34922E886AD00785DF0 /* LaunchScreen.storyboard */ = {
@@ -156,6 +260,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A14D817422EDB26800EF2E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29P3YRFLV5;
+				INFOPLIST_FILE = AppKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.AppKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppKitBundle/AppKitBundle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A14D817522EDB26800EF2E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29P3YRFLV5;
+				INFOPLIST_FILE = AppKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.AppKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppKitBundle/AppKitBundle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		A18EA34D22E886AD00785DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -274,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftIndiaDemo/SwiftIndiaDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
@@ -286,6 +442,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.SwiftIndiaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftIndiaDemo/SwiftIndiaDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftIndiaDemo/SwiftIndiaDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
@@ -307,6 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.noahgilmore.SwiftIndiaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftIndiaDemo/SwiftIndiaDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,6 +475,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A14D817622EDB26800EF2E9C /* Build configuration list for PBXNativeTarget "AppKitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14D817422EDB26800EF2E9C /* Debug */,
+				A14D817522EDB26800EF2E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A18EA33622E886AA00785DF0 /* Build configuration list for PBXProject "SwiftIndiaDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

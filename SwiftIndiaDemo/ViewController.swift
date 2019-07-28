@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     @objc private func didTapRight() {
-        print("Tapped the button")
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "tileWindowRight"), object: nil)
     }
 }
 

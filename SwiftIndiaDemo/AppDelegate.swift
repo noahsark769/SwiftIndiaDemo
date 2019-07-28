@@ -10,11 +10,16 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var appKitPrincipal: Any!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let pluginPath = Bundle.main.builtInPlugInsPath!.appending("/AppKitBundle.bundle")
+        let bundle = Bundle(path: pluginPath)!
+        let loader = AppKitLoader()
+        appKitPrincipal = loader.load(bundle)
+
         return true
     }
 
